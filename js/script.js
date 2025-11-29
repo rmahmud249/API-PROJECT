@@ -30,7 +30,7 @@ const displayCard=(cards)=>{
    <div class="bg-white rounded-xl py-10 px-5 shadow-sm text-center">
             <h3 class=" text-[32px] font-bold text-black">${word.word}</h3>
             <p class="text-[20px] font-medium text-black py-2">Meaning /Pronounciation</p>
-            <h2 class="font-bangla text-[32px] font-semibold" >"${word.meaning} / ${word.pronunciation}"</h2>
+            <h2 class="font-bangla text-[20px] font-semibold" >"${word.meaning} / ${word.pronunciation}"</h2>
         <div class="flex justify-between items-center">
             <button class="btn bg-[#1A91FF10] hover:bg-[#1A91FF80]"><i class="fa-solid fa-circle-info"></i></button>
             <button class="btn bg-[#1A91FF10] hover:bg-[#1A91FF80]"><i class="fa-solid fa-volume-high"></i></button>
